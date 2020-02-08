@@ -24,4 +24,10 @@ The ```Monster``` is a random CPU/NPC that has various attributes that contribut
 
 - ```updateHP()``` is a public member function of the ```Knight```, ```Wizard```, ```Novice```, and ```Monster``` classes that change the HP of each class instance. There are different adjustments according to each class. For example, the ```Knight``` object has armor that reduces the reduction of HP when attacked by the ```Monster``` class.
 
-- ```
+- ```print()``` is a public member function of the ```Knight```, ```Wizard```, ```Novice```, and ```Monster``` classes that displays all member variables of each respective class.
+
+- ```setvector()``` is a public member function exclusive to the ```Monster``` class that creates a container of objects for each random NPC/CPU for the team/clan to encounter while training.
+
+- ```getbossatt()``` is a public member function exclusive to the ```Monster``` class that returns the attack damage in the final stage. 
+
+- ```random()```is a public member function exclusive to the ```Monster``` class that shuffles the vector of objects for the clan/team to encounter.
