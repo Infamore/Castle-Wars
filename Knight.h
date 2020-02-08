@@ -62,7 +62,7 @@ void Knight::updateXP(int mpts) {
 }
 
 void Knight::updateHP(int dmg) {
-	HP -= (dmg - (attack / dmg));
+	HP -= (dmg - (attack / dmg)) - armor;
 }
 
 void Knight::print() {
