@@ -4,6 +4,13 @@ A minigame that assigns attributes to each class object that represents a CPU or
 
 ***Classes***
 
+**Knight**
+
+**Wizard**
+
+**Novice**
+
+**Monster**
 
 
 ***Functions***
